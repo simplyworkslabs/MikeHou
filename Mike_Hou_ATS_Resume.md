@@ -6,13 +6,13 @@ Cary, NC 27519 | 919-985-3895 | [houhyi@gmail.com](mailto:houhyi@gmail.com)
 
 ## Professional Summary
 
-Data and database professional with more than 25 years of experience building and supporting Oracle and SQL Server applications, ETL processes, data warehouses, and operational reporting. Deep expertise in PL/SQL and Oracle database development, with recent hands-on work in AWS RDS for Oracle, Snowflake, Python, Java, Docker, REST APIs, Jira, and GitHub. Bilingual in English and Mandarin Chinese.
+Data and database professional with more than 25 years of experience building and supporting Oracle and SQL Server applications, ETL processes, data warehouses, and operational reporting. Deep expertise in PL/SQL and Oracle database development, with recent hands-on work in AWS RDS for Oracle, Python, Java, Jira, and GitHub. Bilingual in English and Mandarin Chinese.
 
 ## Technical Skills
 
 - **Data Engineering:** ETL development, data processing, data validation, data conversion, data migration, data marts, data warehousing, regulatory reporting
-- **Databases:** Oracle 7, 8i, 10g, 11g, 12c, 19c; AWS RDS for Oracle; Snowflake; SQL Server 7, 2000, 2012
-- **Programming and Tools:** PL/SQL, SQL, T-SQL, Python, Java, JDBC, SQL*Plus, SQLCMD, Toad, Git, GitHub, Jira, Docker, REST APIs
+- **Databases:** Oracle 7, 8i, 10g, 11g, 12c, 19c; AWS RDS for Oracle; SQL Server 7, 2000, 2012
+- **Programming and Tools:** PL/SQL, SQL, T-SQL, Python, Java, JDBC, SQL*Plus, SQLCMD, Toad, Git, GitHub, Jira
 
 ## Professional Experience
 
@@ -26,9 +26,9 @@ Data and database professional with more than 25 years of experience building an
 - Built Oasis Product Definition packages that configured insurance products across 47 states and inserted more than 3 million records to support market expansion and underwriting requirements.
 - Created PL/SQL packages and object types to migrate HPIX client and entity data and IS4W claim data into the Oasis platform.
 - Developed stored procedures for the Claim 100 Comprehensive Report and prepared data for NJ ISO reports and New Jersey Department of Banking filings.
-- Worked in an Agile team using Jira and GitHub; supported Oracle data marts and Snowflake analytics and completed development work in Java and Python.
+- Worked in an Agile team using Jira and GitHub; supported Oracle data marts analytics and completed development work in Java and Python.
 
-**Environment:** Oracle 11g, 12c, 19c; AWS RDS for Oracle; PL/SQL; Python; Java; Snowflake; Toad; Git; GitHub; Jira; Docker; REST APIs
+**Environment:** Oracle 11g, 12c, 19c; AWS RDS for Oracle; PL/SQL; Python; Java; Toad; Git; GitHub; Jira
 
 ### Senior Web Technologist | Sanmina
 
