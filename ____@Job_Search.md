@@ -44,7 +44,7 @@ I have 7 Android Kotlin apps published on the Google Play Store since March 2026
 All app details, assets, and store listing information are in this file:  
 `Google_Store_Info.md`  
 
-Please carefully review everything in that file and incorporate my Android Kotlin app development experience into a new resume (current one is Mike_Hou_ATS_Resume.md, new one can be named as Resume_Android.md).
+Please carefully review everything in that file and incorporate my Android Kotlin app development experience into a new resume (current one is Mike_Hou_ATS_Resume.md, new one can be named as Mike_Hou_Resume_Android.md).
 
 ---
 ---

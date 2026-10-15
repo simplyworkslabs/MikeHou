@@ -1,5 +1,5 @@
 
-The file `Open_Position.md` contains a job posting I'd like to apply for. Using my baseline resume (`Resume_Android.md`, which you created earlier) and the requirements we discussed, please prepare my application.
+The file `Open_Position.md` contains a job posting I'd like to apply for. Using my baseline resume (`Mike_Hou_Resume_Android.md`, which you created earlier) and the requirements we discussed, please prepare my application.
 
 **Deliverables** (both in Markdown, ready for review and submission; I'll convert them to PDF myself):
 1. A polished, ATS-friendly resume tailored to this position, kept to *one or two page*
