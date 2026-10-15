@@ -7,6 +7,8 @@ I have below 7 apps published in Google Play Store:
 05_RoadCam -- developed in July 2026 
 06_RecPro -- developed in August 2026 
 07_LullabyCam -- developed in September 2026 
+08_PowerRuler -- developed in October 2026 
+
 
 Common visual assets: **App icon** and **feature graph** can be found in folder below: 
 
@@ -26,7 +28,7 @@ Google Store Listing Information below:
 - *RoadCam: road & cabin dashcam*
 - *RecPro: lecture & audio record*
 - *LullabyCam: wi-fi baby monitor*
-
+- *PowerRuler: AR & Screen Ruler*
 
 # Short description: 
 
@@ -37,7 +39,7 @@ Google Store Listing Information below:
 - **RoadCam** 🚗 Turn your old phone into a powerful dual-recording dashcam and road camera
 - **RecPro** 🎙️ Turn your old phone into a powerful lecture recorder and audio library
 - **LullabyCam** 📱 Transform two phones into a Wi-Fi baby monitor with soothing lullabies!
-
+- **PowerRuler** ✨ PowerRuler – Your handy pocket ruler and AR measuring tool!
 
 # Long descripton: (first 6 lines)
 
@@ -102,4 +104,12 @@ Google Store Listing Information below:
 🎵 Soothe with lullabies, white noise, and relaxing nature sounds.
 🏠 Enjoy private, local Wi-Fi monitoring—no cloud or account needed!
 💜 Stay connected with easy setup and a one-time unlimited upgrade.
+
+## PowerRuler
+
+📏 Screen Ruler – Measure small objects right on your phone! 
+📱 Digital Ruler – Measure in inches or centimeters. 
+📷 AR Measure – Estimate real-world distances with your camera. 
+📐 Triangle Mode – Measure between three points in AR. 
+✨ PowerRuler – Your handy pocket ruler and AR measuring tool!
 
