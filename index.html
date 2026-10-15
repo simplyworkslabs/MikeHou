@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mike Hou — Android Kotlin Developer</title>
+<meta name="description" content="Mike Hou: Android Kotlin developer and senior software and database professional with 25+ years of experience.">
+<style>
+  :root {
+    --bg: #f6f4ef;
+    --paper: #ffffff;
+    --ink: #1d2230;
+    --muted: #5d6475;
+    --line: #e5e1d8;
+    --accent: #1f5f5b;
+    --accent-soft: #e4efed;
+    --shadow: 0 1px 2px rgba(20,25,40,.04), 0 12px 40px rgba(20,25,40,.07);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12151c;
+      --paper: #1a1e28;
+      --ink: #e9e7e1;
+      --muted: #a2a8b6;
+      --line: #2b3040;
+      --accent: #6fc3bb;
+      --accent-soft: #1f3534;
+      --shadow: 0 12px 40px rgba(0,0,0,.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color .2s; }
+  a:hover { border-bottom-color: var(--accent); }
+  .page {
+    max-width: 920px;
+    margin: 48px auto;
+    background: var(--paper);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  header {
+    padding: 56px 56px 40px;
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(135deg, var(--accent-soft), transparent 70%);
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    font-size: clamp(2.2rem, 6vw, 3.2rem);
+    letter-spacing: -.02em;
+    margin: 0 0 6px;
+    line-height: 1.1;
+  }
+  .tagline { color: var(--accent); font-weight: 600; font-size: 1.05rem; margin: 0 0 22px; }
+  .contact { display: flex; flex-wrap: wrap; gap: 8px 22px; color: var(--muted); font-size: .95rem; }
+  .contact span::before { content: ""; }
+  main { padding: 8px 56px 56px; }
+  section { padding-top: 36px; }
+  h2 {
+    font-size: .78rem;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+  p { margin: 0 0 12px; }
+  .skills { display: grid; gap: 14px; }
+  .skill-row { display: grid; grid-template-columns: 190px 1fr; gap: 16px; }
+  .skill-row dt { font-weight: 600; }
+  .skill-row dd { margin: 0; color: var(--muted); }
+  .job { padding: 0 0 28px 24px; border-left: 2px solid var(--line); position: relative; margin-left: 4px; }
+  .job:last-child { padding-bottom: 0; }
+  .job::before {
+    content: ""; position: absolute; left: -7px; top: 7px;
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--paper); border: 2px solid var(--accent);
+  }
+  .job h3 { margin: 0; font-size: 1.15rem; line-height: 1.35; }
+  .job .company { color: var(--accent); font-weight: 600; }
+  .meta { color: var(--muted); font-size: .9rem; margin: 2px 0 12px; font-style: italic; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  li::marker { color: var(--accent); }
+  .env { font-size: .88rem; color: var(--muted); background: var(--bg); border-radius: 8px; padding: 8px 12px; margin-top: 12px; }
+  .env strong { color: var(--ink); }
+  .apps { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-top: 18px; }
+  .app {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+    transition: transform .2s, box-shadow .2s, border-color .2s;
+  }
+  .app:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 8px 22px rgba(0,0,0,.07); }
+  .app .when { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  .app h4 { margin: 4px 0 6px; font-size: 1rem; line-height: 1.3; }
+  .app p { margin: 0; font-size: .9rem; color: var(--muted); line-height: 1.55; }
+  .sub-title { margin: 22px 0 0; font-weight: 600; font-size: .95rem; }
+  .edu { display: grid; gap: 12px; }
+  .edu-item { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .edu-item .detail { color: var(--muted); font-size: .92rem; }
+  .edu-item strong { display: block; }
+  footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 0 0 36px; }
+  @media (max-width: 680px) {
+    .page { margin: 0; border-radius: 0; }
+    header { padding: 36px 22px 28px; }
+    main { padding: 4px 22px 40px; }
+    .skill-row { grid-template-columns: 1fr; gap: 2px; }
+  }
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; margin: 0; max-width: none; border-radius: 0; }
+    .app, .job { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Mike Hou</h1>
+    <p class="tagline">Android Kotlin Developer &nbsp;|&nbsp; Mobile Applications &nbsp;|&nbsp; Data and Database Engineering</p>
+    <div class="contact">
+      <span>Cary, NC 27519</span>
+      <span>919-985-3895</span>
+      <a href="mailto:houhyi@gmail.com">houhyi@gmail.com</a>
+      <a href="https://simplyworkslabs.github.io/Home/" target="_blank" rel="noopener">Android App Portfolio</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Professional Summary</h2>
+      <p>Android Kotlin developer and senior software and database professional with more than 25 years of experience building reliable applications, data systems, ETL processes, and operational solutions. Developed and published seven Kotlin Android applications on the Google Play Store from March through September 2026 using Jetpack Compose, Room, and Material 3. Recent mobile work spans camera, video, audio, document scanning, PDF creation, offline text recognition and translation, background recording, local Wi-Fi communication, on-device storage, search, backup, sharing, and export. Deep enterprise experience in Java, Python, Oracle PL/SQL, SQL Server, and AWS RDS for Oracle. Bilingual in English and Mandarin Chinese.</p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <dl class="skills">
+        <div class="skill-row"><dt>Android Development</dt><dd>Kotlin, Jetpack Compose, Room, Material 3, Android application development, Google Play Store publishing, camera and media applications, background recording, local Wi-Fi communication, offline and on-device processing</dd></div>
+        <div class="skill-row"><dt>Mobile Application Features</dt><dd>Photo, video, and audio capture and playback; document scanning and PDF creation; text recognition and translation; search and filtering; backup and restore; storage rotation; file sharing and export</dd></div>
+        <div class="skill-row"><dt>Programming and Data</dt><dd>Kotlin, Java, Python, PL/SQL, SQL, T-SQL, JDBC, ETL, data processing, data validation, data conversion, data migration</dd></div>
+        <div class="skill-row"><dt>Databases and Tools</dt><dd>Oracle 7, 8i, 10g, 11g, 12c, 19c; AWS RDS for Oracle; SQL Server 7, 2000, 2012; SQL*Plus; SQLCMD; Toad; Git; GitHub; Jira</dd></div>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+
+      <article class="job">
+        <h3>Independent Android Kotlin Developer <span class="company">· Published Application Portfolio</span></h3>
+        <p class="meta">Cary, NC &nbsp;|&nbsp; Mar 2026 – Present</p>
+        <ul>
+          <li>Developed and published seven Kotlin Android applications on the Google Play Store from March through September 2026, delivering one new application per month across travel, productivity, security, automotive, audio, and home-monitoring use cases.</li>
+          <li>Built privacy-focused mobile workflows using offline or on-device processing, secure local storage, and local Wi-Fi communication without requiring cloud services or user accounts where applicable.</li>
+          <li>Implemented multimedia capabilities including photo, video, and audio capture; front-, rear-, and dual-camera recording; motion-triggered video; live video and audio; two-way talk; and background or screen-off recording.</li>
+          <li>Developed document and content-management features including automatic page-edge detection, crop and rotation tools, image enhancement options, PDF generation, search and filtering, backup and restore, storage rotation, clip protection, sharing, and export.</li>
+          <li>Created configurable user experiences with clocks, alarms, timers, world-city tracking, sunrise and sunset information, themes, night modes, lullabies, white noise, and nature sounds.</li>
+        </ul>
+        <div class="env"><strong>Environment:</strong> Kotlin; Android; Jetpack Compose; Room; Material 3; Google Play Store</div>
+
+        <p class="sub-title">Published Google Play Applications</p>
+        <div class="apps">
+          <div class="app"><span class="when">Mar 2026</span><h4>PathLog: Travel Log Timeline</h4><p>Travel journal for organizing photos, videos, notes, places, and timelines, with offline text recognition and translation, search, filtering, backup, restore, and export.</p></div>
+          <div class="app"><span class="when">Apr 2026</span><h4>ClockPro: elegant &amp; always on</h4><p>Customizable always-on clock with world cities, alarms, timer, stopwatch, sleep tools, sunrise and sunset information, themes, and Night Mode.</p></div>
+          <div class="app"><span class="when">May 2026</span><h4>FormSnap: fast document scan</h4><p>Document scanner and PDF creator with automatic page-edge detection, cropping, rotation, straightening, retakes, image modes, and configurable PDF size, quality, and margins.</p></div>
+          <div class="app"><span class="when">Jun 2026</span><h4>eDog: Motion &amp; Bark Watch Dog</h4><p>Motion-detection security camera with audio, motion-triggered video recording, playback, sharing, export, Night Mode, and configurable alert sounds.</p></div>
+          <div class="app"><span class="when">Jul 2026</span><h4>RoadCam: road &amp; cabin dashcam</h4><p>Road and cabin dashcam with front-, rear-, and dual-camera recording, background recording, automatic storage rotation, clip protection, microphone audio, playback, and recording management.</p></div>
+          <div class="app"><span class="when">Aug 2026</span><h4>RecPro: lecture &amp; audio record</h4><p>Background audio recorder and searchable library with pause and resume, storage limits, automatic rotation, protection, sharing, export, and private local storage.</p></div>
+          <div class="app"><span class="when">Sep 2026</span><h4>LullabyCam: wi-fi baby monitor</h4><p>Local Wi-Fi baby monitor connecting two Android phones with live video and audio, two-way talk, push-to-talk, lullabies, white noise, and nature sounds without a cloud service or account.</p></div>
+        </div>
+      </article>
+
+      <article class="job">
+        <h3>Senior Systems Analyst <span class="company">· CURI Medical Mutual Insurance</span></h3>
+        <p class="meta">Raleigh, NC &nbsp;|&nbsp; Sep 2014 – Mar 2026</p>
+        <ul>
+          <li>Administered AWS RDS for Oracle databases, including snapshot management, schema backups, and production-to-development and test environment refreshes.</li>
+          <li>Developed and maintained PL/SQL packages, stored procedures, and functions for nightly ETL processes supporting The Legacy Fund, Dividend, monthly policy renewals, the enterprise data warehouse, and the Milliman Datalytics application.</li>
+          <li>Designed and supported database packages, procedures, functions, triggers, tables, and views for annual fund allocation, quarterly statement generation, and data mart refreshes.</li>
+          <li>Built Oasis Product Definition packages that configured insurance products across 47 states and inserted more than 3 million records to support market expansion and underwriting requirements.</li>
+          <li>Created PL/SQL packages and object types to migrate HPIX client and entity data and IS4W claim data into the Oasis platform.</li>
+          <li>Developed stored procedures for the Claim 100 Comprehensive Report and prepared data for NJ ISO reports and New Jersey Department of Banking filings.</li>
+          <li>Worked in an Agile team using Jira and GitHub; supported Oracle data marts analytics and completed development work in Java and Python.</li>
+        </ul>
+        <div class="env"><strong>Environment:</strong> Oracle 11g, 12c, 19c; AWS RDS for Oracle; PL/SQL; Python; Java; Toad; Git; GitHub; Jira</div>
+      </article>
+
+      <article class="job">
+        <h3>Senior Web Technologist <span class="company">· Sanmina</span></h3>
+        <p class="meta">Raleigh, NC and Huntsville, AL &nbsp;|&nbsp; Jun 2004 – Aug 2014</p>
+        <ul>
+          <li>Developed an automated ETL process that delivered supply chain data to the QuoteWin and SupplyWin web applications using Java, SQL*Plus, PL/SQL, Transact-SQL, and SQLCMD.</li>
+          <li>Supported scheduled ETL operations, improved processing accuracy, and provided backend support to web development teams in India and Mexico.</li>
+          <li>Translated requirements from the Operations Analysis team into ETL business rules and reports for senior vice presidents, global supply chain managers, manufacturing plants, and Oracle ERP.</li>
+          <li>Developed PL/SQL stored procedures, functions, and packages for Total Available Market analysis and the QuoteWin application.</li>
+        </ul>
+        <div class="env"><strong>Environment:</strong> Oracle 10g, 11g; PL/SQL; T-SQL; Java; SQL Server 2000; SQL*Plus; SQLCMD</div>
+      </article>
+
+      <article class="job">
+        <h3>Senior Programmer <span class="company">· UNIREX Corporation</span></h3>
+        <p class="meta">Huntsville, AL &nbsp;|&nbsp; May 2000 – Jun 2004</p>
+        <ul>
+          <li>Developed the UniPoll website, UNIREX Watch Center, and an intranet tank inventory posting service for Valspar, Westway, and Kinder Morgan Terminal Company.</li>
+          <li>Designed, created, and maintained the UniPoll SQL Server database.</li>
+        </ul>
+        <div class="env"><strong>Environment:</strong> Oracle 8i; PL/SQL; Java; JDBC; T-SQL; SQL Server 7 and 2000</div>
+      </article>
+
+      <article class="job">
+        <h3>Senior Programmer <span class="company">· Huayuan Investment Group</span></h3>
+        <p class="meta">Beijing, China &nbsp;|&nbsp; Aug 1996 – Jul 1998</p>
+        <ul>
+          <li>Developed and supported a futures trading platform using Oracle 7 and PL/SQL.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Programmer <span class="company">· First Grinding Wheel Factory</span></h3>
+        <p class="meta">Shenyang, China &nbsp;|&nbsp; Aug 1990 – Jul 1993</p>
+        <ul>
+          <li>Developed and supported a human resources application using dBASE III.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="edu">
+        <div class="edu-item"><div><strong>Master of Science in Computer Science</strong><span class="detail">University of Alabama in Huntsville · GPA 3.8/4.0</span></div><span class="detail">2001</span></div>
+        <div class="edu-item"><div><strong>Master of Engineering in Computer Engineering</strong><span class="detail">Sichuan University, Chengdu, China</span></div><span class="detail">1996</span></div>
+        <div class="edu-item"><div><strong>Bachelor of Arts in Computer Application</strong><span class="detail">Xidian University, Xi'an, China</span></div><span class="detail">1990</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Professional Training</h2>
+      <ul>
+        <li>Toad for Oracle Fundamentals and Toad for Oracle DBAs Database Maintenance, 2014</li>
+        <li>SQL Server 2012 Training, 2014</li>
+      </ul>
+    </section>
+  </main>
+  <footer>Mike Hou · Cary, NC</footer>
+</div>
+</body>
+</html>
