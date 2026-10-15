@@ -2,7 +2,7 @@
 
 **Android Kotlin Developer | Mobile Applications | Data and Database Engineering**
 
-Cary, NC 27519 | 919-985-3895 | [houhyi@gmail.com](mailto:houhyi@gmail.com)
+Cary, NC 27519 | 919-985-3895 | [houhyi@gmail.com](mailto:houhyi@gmail.com) | [Android App Portfolio](https://simplyworkslabs.github.io/Home/)
 
 ## Professional Summary
 
