@@ -19,3 +19,5 @@ The final deliverables should be **a polished, ATS-friendly resume and a customi
 - `Mike_Hou_Resume_[Company]_[Position].md`
 - `Mike_Hou_Cover_Letter_[Company]_[Position].md`
 
+Replace `[Company]` and `[Position]` with the actual company name and position. 
+
