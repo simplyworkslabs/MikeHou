@@ -1,45 +1,26 @@
-Hi Mike,
- 
-In person interview is required. This is 100% on site. Don’t submit if this does not work for you.
+
+Android Developer
 
 
-Our client has an opening for  a   Java Developer (812599)
-  
+Easy Apply
+Della Infotech
+Job Details
+Skills
+UI
+Summary
+Job Description :
+Experience : 5+ years of professional Android development
+Language : Expert-level Kotlin, including coroutines and Flow; able to read Java
+Architecture : Hands-on experience with MVVM, MVI or similar unidirectional data flow patterns, state hoisting, and dependency injection; Kotlin Multiplatform a plus
+UI : Strong UI fundamentals: state management, lifecycle, adaptive layouts, accessibility, performance. Experience with a declarative UI framework; Jetpack Compose strongly preferred (React, SwiftUI or Flutter experience also counts)
+Security : Experience building security-sensitive apps (banking, fintech, payments, healthcare or similar), including biometric authentication, secure storage/encryption, and OAuth 2.0/OpenID Connect
+Testing: Proficiency with JUnit and Compose UI testing; experience writing fakes/test doubles and testing coroutines/Flows; Robolectric a plus
+CI/CD: Experience working in automated build pipelines (GitLab CI preferred); comfortable with Gradle Kotlin DSL, build flavors, and version catalogs
+API Integration: Strong experience with REST APIs, including authenticated sessions and token refresh; Ktor client a plus (Retrofit/OkHttp experience transfers)
+Play Store: Experience with Google Play Console, app signing, staged rollouts, and release management
+Version Control : Proficiency with Git (GitLab preferred) and merge-request-based code review
+Employers have access to artificial intelligence language tools (“AI”) that help generate and enhance job descriptions and AI may have been used to create this description. The position description has been reviewed for accuracy and Dice believes it to correctly reflect the job opportunity.
+Dice Id: 10511336
+Position Id: 9131612
+Posted 6 hours ago
 
-This position is up to  12 months, with the option of an extension, and the client is in Raleigh, NC.
-
-Please send rate and resume.
-
-
-Experience with Agile (Scrum, Kanban, or SAFe) development Required 2 Years
-
-Experience coding using Java/J2EE Required 2 Years
-
-Experience developing and testing using junits and jomockits Required 2 Years
-
-Experience with executing SQL to validate or test. Required 2 Years
-
-Experience in XML, XSD, XSLT, XSL-FO Required 2 Years
-
-Experience with Oracle, Oracle Utilities, Apache FOP, SQL scripting, and relational database modeling. Required 2 Years
-
-Understanding of Medicaid Program Policy guidelines Nice to have 2 Years
-
-Good oral and written communications skills in order to interact on a daily basis with system developers, business analysts, and others. Required 
-
-Ability to prioritize tasks within the project and work with minimal supervision or guidance. Required 
-
-Ability to work in a rapidly changing environment. Required 
-
-Experience navigating on a UNIX platform. Desired 1 Years
-
-
-
-Thanks,
-Anu Sharma
-Sr IT Recruiter
-Focused HR Solutions
-E-MAIL: recruiter2@fhr-solutions.com
-Phone: 480-591-0213 Opt. 1
-
-www.fhr-solutions.com

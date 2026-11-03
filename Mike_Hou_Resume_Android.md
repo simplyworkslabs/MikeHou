@@ -19,7 +19,7 @@ Android Kotlin developer and senior software and database professional with more
 
 ### Independent Android Kotlin Developer | Published Application Portfolio
 
-*Cary, NC | Mar 2026 - Present*
+*Cary, NC | Mar 2023 - Present*
 
 - Developed 10 Kotlin Android applications from March through October 2026 across travel, productivity, security, automotive, audio, home-monitoring, measurement, calendar, and screen-recording use cases; published nine on the Google Play Store, with one in review.
 - Built privacy-focused mobile workflows using offline or on-device processing, secure local storage, and local Wi-Fi communication without requiring cloud services or user accounts where applicable.
@@ -32,16 +32,16 @@ Android Kotlin developer and senior software and database professional with more
 
 #### Google Play Applications
 
-- **PathLog: Travel Log Timeline** *(Mar 2026)* — Travel journal for organizing photos, videos, notes, places, and timelines, with offline text recognition and translation, search, filtering, backup, restore, and export.
-- **ClockPro: elegant & always on** *(Apr 2026)* — Customizable always-on clock with world cities, alarms, timer, stopwatch, sleep tools, sunrise and sunset information, themes, and Night Mode.
-- **FormSnap: fast document scan** *(May 2026)* — Document scanner and PDF creator with automatic page-edge detection, cropping, rotation, straightening, retakes, image modes, and configurable PDF size, quality, and margins.
-- **eDog: Motion & Bark Watch Dog** *(Jun 2026)* — Motion-detection security camera with audio, motion-triggered video recording, playback, sharing, export, Night Mode, and configurable alert sounds.
-- **RoadCam: road & cabin dashcam** *(Jul 2026)* — Road and cabin dashcam with front-, rear-, and dual-camera recording, background recording, automatic storage rotation, clip protection, microphone audio, playback, and recording management.
-- **RecPro: lecture & audio record** *(Aug 2026)* — Background audio recorder and searchable library with pause and resume, storage limits, automatic rotation, protection, sharing, export, and private local storage.
-- **LullabyCam: wi-fi baby monitor** *(Sep 2026)* — Local Wi-Fi baby monitor connecting two Android phones with live video and audio, two-way talk, push-to-talk, lullabies, white noise, and nature sounds without a cloud service or account.
-- **PowerRuler: AR & Screen Ruler** *(Oct 2026)* — Measurement utility with an on-screen ruler, inch and centimeter units, camera-based augmented-reality distance estimates, and three-point triangle measurement.
-- **CalendarPro: Time Beautifully** *(Oct 2026)* — Customizable calendar with month, week, and day views, a live clock, upcoming events, countdowns, reminders, recurring events, themes, colors, and photos.
-- **PixelRec: Screen Recorder** *(Oct 2026; Google Play review)* — Screen and screenshot recorder with audio, sharing, video trimming, premium crop and rotation tools, and recording up to 1080p at 60 FPS.
+- **PathLog: Travel Log Timeline** — Travel journal for organizing photos, videos, notes, places, and timelines, with offline text recognition and translation, search, filtering, backup, restore, and export.
+- **ClockPro: elegant & always on** — Customizable always-on clock with world cities, alarms, timer, stopwatch, sleep tools, sunrise and sunset information, themes, and Night Mode.
+- **FormSnap: fast document scan** — Document scanner and PDF creator with automatic page-edge detection, cropping, rotation, straightening, retakes, image modes, and configurable PDF size, quality, and margins.
+- **eDog: Motion & Bark Watch Dog** — Motion-detection security camera with audio, motion-triggered video recording, playback, sharing, export, Night Mode, and configurable alert sounds.
+- **RoadCam: road & cabin dashcam** — Road and cabin dashcam with front-, rear-, and dual-camera recording, background recording, automatic storage rotation, clip protection, microphone audio, playback, and recording management.
+- **RecPro: lecture & audio record** — Background audio recorder and searchable library with pause and resume, storage limits, automatic rotation, protection, sharing, export, and private local storage.
+- **LullabyCam: wi-fi baby monitor** — Local Wi-Fi baby monitor connecting two Android phones with live video and audio, two-way talk, push-to-talk, lullabies, white noise, and nature sounds without a cloud service or account.
+- **PowerRuler: AR & Screen Ruler** — Measurement utility with an on-screen ruler, inch and centimeter units, camera-based augmented-reality distance estimates, and three-point triangle measurement.
+- **CalendarPro: Time Beautifully** — Customizable calendar with month, week, and day views, a live clock, upcoming events, countdowns, reminders, recurring events, themes, colors, and photos.
+- **PixelRec: Screen Recorder** — Screen and screenshot recorder with audio, sharing, video trimming, premium crop and rotation tools, and recording up to 1080p at 60 FPS.
 
 ### Senior Systems Analyst | CURI Medical Mutual Insurance
 
