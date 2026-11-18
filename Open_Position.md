@@ -1,26 +1,59 @@
-
-Android Developer
-
-
-Easy Apply
-Della Infotech
-Job Details
-Skills
-UI
 Summary
-Job Description :
-Experience : 5+ years of professional Android development
-Language : Expert-level Kotlin, including coroutines and Flow; able to read Java
-Architecture : Hands-on experience with MVVM, MVI or similar unidirectional data flow patterns, state hoisting, and dependency injection; Kotlin Multiplatform a plus
-UI : Strong UI fundamentals: state management, lifecycle, adaptive layouts, accessibility, performance. Experience with a declarative UI framework; Jetpack Compose strongly preferred (React, SwiftUI or Flutter experience also counts)
-Security : Experience building security-sensitive apps (banking, fintech, payments, healthcare or similar), including biometric authentication, secure storage/encryption, and OAuth 2.0/OpenID Connect
-Testing: Proficiency with JUnit and Compose UI testing; experience writing fakes/test doubles and testing coroutines/Flows; Robolectric a plus
-CI/CD: Experience working in automated build pipelines (GitLab CI preferred); comfortable with Gradle Kotlin DSL, build flavors, and version catalogs
-API Integration: Strong experience with REST APIs, including authenticated sessions and token refresh; Ktor client a plus (Retrofit/OkHttp experience transfers)
-Play Store: Experience with Google Play Console, app signing, staged rollouts, and release management
-Version Control : Proficiency with Git (GitLab preferred) and merge-request-based code review
-Employers have access to artificial intelligence language tools (“AI”) that help generate and enhance job descriptions and AI may have been used to create this description. The position description has been reviewed for accuracy and Dice believes it to correctly reflect the job opportunity.
-Dice Id: 10511336
-Position Id: 9131612
-Posted 6 hours ago
+Hiring: Senior PL/SQL Developer
+Experience: 10+ Years
+Job Type:  W2 Contract
+
+Job Description
+We are looking for an experienced Senior PL/SQL Developer with 10+ years of hands-on experience in Oracle database development, PL/SQL programming, query optimization, and database performance tuning. The ideal candidate should have strong expertise in developing complex SQL queries, stored procedures, functions, packages, and triggers.
+
+Key Responsibilities
+Design, develop, and maintain complex PL/SQL procedures, functions, packages, and triggers.
+
+Write and optimize complex SQL queries for large-scale databases.
+
+Perform SQL query tuning, performance optimization, and troubleshooting.
+
+Work with Oracle databases, indexing, partitioning, and execution plans.
+
+Develop and maintain database objects to support enterprise applications.
+
+Analyze business requirements and translate them into technical solutions.
+
+Perform data migration, data validation, and database integration activities.
+
+Identify and resolve database performance issues and production defects.
+
+Collaborate with application developers, business analysts, and QA teams.
+
+Participate in code reviews, unit testing, and deployment activities.
+
+Required Skills
+10+ years of experience in Oracle PL/SQL development.
+
+Strong expertise in SQL and advanced PL/SQL programming.
+
+Hands-on experience with Stored Procedures, Functions, Packages, Cursors, and Triggers.
+
+Strong knowledge of Oracle Database architecture.
+
+Experience with SQL tuning, query optimization, and performance troubleshooting.
+
+Knowledge of indexing, partitioning, joins, analytical functions, and execution plans.
+
+Experience with database design, data modeling, and normalization.
+
+Proficiency in debugging and resolving complex database issues.
+
+Experience working in Agile/Scrum development environments.
+
+Preferred Skills
+Experience with Oracle 12c, 19c, or higher.
+
+Exposure to Unix/Linux shell scripting.
+
+Experience with ETL processes and data integration.
+
+Knowledge of Oracle Forms, Reports, or database utilities is a plus.
+
+Experience with large-scale enterprise applications.
 
