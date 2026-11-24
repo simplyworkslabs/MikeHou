@@ -2,7 +2,7 @@
 
 **Android Kotlin Developer | Mobile Applications | Data and Database Engineering**
 
-Cary, NC 27519 | 919-985-3895 | [houhyi@gmail.com](mailto:houhyi@gmail.com) | [Android App Portfolio](https://simplyworkslabs.github.io/Home/)
+Cary, NC 27519 | 919-985-3895 | [houhyi@gmail.com](mailto:houhyi@gmail.com) | Android App Portfolio: `https://simplyworkslabs.github.io/Home/`
 
 ## Professional Summary
 
@@ -21,7 +21,7 @@ Android Kotlin developer and senior software and database professional with more
 
 *Cary, NC | Mar 2023 - Present*
 
-- Developed 10 Kotlin Android applications from March through October 2026 across travel, productivity, security, automotive, audio, home-monitoring, measurement, calendar, and screen-recording use cases; published nine on the Google Play Store, with one in review.
+- Published 11 Kotlin Android applications by October 2026 across travel, productivity, security, automotive, audio, home-monitoring, measurement, calendar, and screen-recording use cases; published nine on the Google Play Store, with one in review. My apps: `https://simplyworkslabs.github.io/Home/`
 - Built privacy-focused mobile workflows using offline or on-device processing, secure local storage, and local Wi-Fi communication without requiring cloud services or user accounts where applicable.
 - Implemented multimedia capabilities including photo, video, audio, screen, and screenshot capture; front-, rear-, and dual-camera recording; motion-triggered video; live video and audio; two-way talk; background or screen-off recording; and video trimming, cropping, and rotation.
 - Developed document and content-management features including automatic page-edge detection, crop and rotation tools, image enhancement options, PDF generation, search and filtering, backup and restore, storage rotation, clip protection, sharing, and export.
@@ -41,7 +41,7 @@ Android Kotlin developer and senior software and database professional with more
 - **LullabyCam: wi-fi baby monitor** — Local Wi-Fi baby monitor connecting two Android phones with live video and audio, two-way talk, push-to-talk, lullabies, white noise, and nature sounds without a cloud service or account.
 - **PowerRuler: AR & Screen Ruler** — Measurement utility with an on-screen ruler, inch and centimeter units, camera-based augmented-reality distance estimates, and three-point triangle measurement.
 - **CalendarPro: Time Beautifully** — Customizable calendar with month, week, and day views, a live clock, upcoming events, countdowns, reminders, recurring events, themes, colors, and photos.
-- **PixelRec: Screen Recorder** — Screen and screenshot recorder with audio, sharing, video trimming, premium crop and rotation tools, and recording up to 1080p at 60 FPS.
+- **PixelRec: Screen Recorder** — Screen and screenshot recorder with audio, sharing, video trimming, premium crop and rotation tools, and recording up to 1080p at 60 FPS.- **WritersCompanion** — Write, journal, track your reading, and organize your creative ideas
 
 ### Senior Systems Analyst | CURI Medical Mutual Insurance
 
